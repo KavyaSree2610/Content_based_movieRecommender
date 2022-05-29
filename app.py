@@ -34,7 +34,7 @@ def fetch_poster(movie):
     querystring = {"q": movie}
     headers = {
 	"X-RapidAPI-Host": "online-movie-database.p.rapidapi.com",
-	"X-RapidAPI-Key": "09d5faca2emsh958cfd9ff50e8d5p163535jsnc5dfd08abc94"
+	"X-RapidAPI-Key": "50d25b70bbmsh3f5ef47c6d68ac0p11d363jsn716aa9633368"
 }
     response = requests.request("GET", url, headers=headers, params=querystring)
     return response.text
