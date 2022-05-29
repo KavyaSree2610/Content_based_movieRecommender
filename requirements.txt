@@ -2,5 +2,4 @@ pandas
 Pillow
 requests
 streamlit
-
-
+json
