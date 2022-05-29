@@ -32,9 +32,9 @@ def fetch_poster(movie):
     url = "https://online-movie-database.p.rapidapi.com/auto-complete"
     querystring = {"q": movie}
     headers = {
-        "X-RapidAPI-Host": "online-movie-database.p.rapidapi.com",
-        "X-RapidAPI-Key": "390fda9ce9msh43220b144a74b85p1ae7f7jsn5d145c610b9d"
-    }
+	"X-RapidAPI-Host": "online-movie-database.p.rapidapi.com",
+	"X-RapidAPI-Key": "09d5faca2emsh958cfd9ff50e8d5p163535jsnc5dfd08abc94"
+}
     response = requests.request("GET", url, headers=headers, params=querystring)
     return response.text
 
