@@ -1,5 +1,6 @@
 # Content_based_movieRecommender
 
+How to run the web app:
 Clone my repository.
 Open CMD in working directory.
 Run following command.
