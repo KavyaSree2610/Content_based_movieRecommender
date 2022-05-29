@@ -21,6 +21,7 @@ st.markdown('''<h1 style='text-align: center; color: #d73b5c;'>Movie Recommender
 #To hide the footer in streamlit
 hide_menu_style ="""
                     <style>
+		    #MainMenu {visibility: hidden;}
                     footer {visibility :hidden;}
                     </style>"""
 st.markdown(hide_menu_style,unsafe_allow_html=True)
